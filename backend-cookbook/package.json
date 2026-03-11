@@ -1,0 +1,17 @@
+{
+  "name": "backend-cookbook",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "apps/*"
+  ],
+  "scripts": {
+    "dev": "concurrently \"npm run dev --workspace=apps/backend\" \"npm run dev --workspace=apps/frontend\"",
+    "build": "npm run build --workspace=apps/backend && npm run build --workspace=apps/frontend",
+    "lint": "npm run lint --workspace=apps/frontend && npm run lint --workspace=apps/backend",
+    "typecheck": "npm run typecheck --workspace=apps/frontend && npm run typecheck --workspace=apps/backend"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  }
+}

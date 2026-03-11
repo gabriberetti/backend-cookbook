@@ -1,0 +1,6 @@
+{"sessionId":"63eca7","location":"useSocket.ts:disconnect","message":"WS disconnected","data":{},"timestamp":1773237173466,"hypothesisId":"WSDisconnect"}
+{"sessionId":"63eca7","location":"socketService.ts","message":"Socket client connected","data":{"socketId":"mBMPs8O524uwZAuCAAAB"},"timestamp":1773237177745,"hypothesisId":"Socket"}
+{"sessionId":"63eca7","location":"useSocket.ts:connect","message":"WS connected","data":{"wsUrl":"http://localhost:4000"},"timestamp":1773237177745,"hypothesisId":"WSConnect"}
+{"sessionId":"63eca7","location":"useSocket.ts:disconnect","message":"WS disconnected","data":{},"timestamp":1773237184174,"hypothesisId":"WSDisconnect"}
+{"sessionId":"63eca7","location":"useSocket.ts:connect","message":"WS connected","data":{"wsUrl":"http://localhost:4000"},"timestamp":1773237187751,"hypothesisId":"WSConnect"}
+{"sessionId":"63eca7","location":"useSocket.ts:disconnect","message":"WS disconnected","data":{},"timestamp":1773237199810,"hypothesisId":"WSDisconnect"}
