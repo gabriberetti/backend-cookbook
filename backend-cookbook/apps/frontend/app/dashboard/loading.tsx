@@ -2,7 +2,7 @@ import { Skeleton, StatCardSkeleton, EventRowSkeleton } from '@/components/ui/Sk
 
 export default function DashboardLoading() {
   return (
-    <div className="max-w-6xl mx-auto px-6" style={{ paddingTop: 'var(--space-16)', paddingBottom: 'var(--space-24)' }}>
+    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8" style={{ paddingTop: 'var(--space-16)', paddingBottom: 'var(--space-24)' }}>
       {/* Header */}
       <div className="flex items-start justify-between gap-4 mb-6">
         <div className="space-y-2.5">

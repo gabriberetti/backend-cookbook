@@ -26,7 +26,7 @@ export default function TimelinePage() {
   const filtered = filter === 'all' ? events : events.filter((e) => e.eventType === filter);
 
   return (
-    <div className="max-w-4xl mx-auto px-6" style={{ paddingTop: 'var(--space-16)', paddingBottom: 'var(--space-24)' }}>
+    <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8" style={{ paddingTop: 'var(--space-16)', paddingBottom: 'var(--space-24)' }}>
 
       {/* Header */}
       <motion.div

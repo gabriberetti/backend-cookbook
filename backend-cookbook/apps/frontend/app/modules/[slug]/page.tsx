@@ -112,7 +112,7 @@ export default function ModulePage() {
   const scenarioDone  = moduleProgress?.scenarioCorrect  ?? false;
 
   return (
-    <div className="max-w-5xl mx-auto px-6" style={{ paddingTop: 'var(--space-16)', paddingBottom: 'var(--space-24)' }}>
+    <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8" style={{ paddingTop: 'var(--space-16)', paddingBottom: 'var(--space-24)' }}>
 
       {/* Breadcrumb */}
       <motion.div

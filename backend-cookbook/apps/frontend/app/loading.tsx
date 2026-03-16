@@ -3,7 +3,7 @@ import { Skeleton } from '@/components/ui/Skeleton';
 // Next.js App Router route-level loading UI (shown during navigation Suspense)
 export default function Loading() {
   return (
-    <div className="max-w-5xl mx-auto px-6" style={{ paddingTop: 'var(--space-16)', paddingBottom: 'var(--space-24)' }}>
+    <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8" style={{ paddingTop: 'var(--space-16)', paddingBottom: 'var(--space-24)' }}>
       {/* Page header skeleton */}
       <div className="mb-10 space-y-3">
         <Skeleton width={80}  height={11} rounded="4px" />

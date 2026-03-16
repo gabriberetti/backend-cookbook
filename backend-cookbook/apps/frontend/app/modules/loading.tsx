@@ -2,7 +2,7 @@ import { Skeleton, ModuleCardSkeleton } from '@/components/ui/Skeleton';
 
 export default function ModulesLoading() {
   return (
-    <div className="max-w-5xl mx-auto px-6" style={{ paddingTop: 'var(--space-16)', paddingBottom: 'var(--space-24)' }}>
+    <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8" style={{ paddingTop: 'var(--space-16)', paddingBottom: 'var(--space-24)' }}>
       {/* Header */}
       <div className="mb-10 space-y-3">
         <Skeleton width={100} height={11} rounded="4px" />

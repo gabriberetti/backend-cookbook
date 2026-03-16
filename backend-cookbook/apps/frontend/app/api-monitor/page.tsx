@@ -60,7 +60,7 @@ export default function ApiMonitorPage() {
   const errorCount  = apiEvents.filter((e) => (e.status ?? 0) >= 400).length;
 
   return (
-    <div className="max-w-6xl mx-auto px-6" style={{ paddingTop: 'var(--space-16)', paddingBottom: 'var(--space-24)' }}>
+    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8" style={{ paddingTop: 'var(--space-16)', paddingBottom: 'var(--space-24)' }}>
 
       {/* Header */}
       <motion.div

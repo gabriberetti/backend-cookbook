@@ -157,7 +157,7 @@ export default function HomePage() {
         ctaHref="/dashboard"
       />
 
-      <section className="relative max-w-6xl mx-auto px-6 pb-32" style={{ paddingTop: 'var(--space-4)' }}>
+      <section className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-32" style={{ paddingTop: 'var(--space-4)' }}>
 
         {/* Live Stats Counter Bar */}
         <motion.div
